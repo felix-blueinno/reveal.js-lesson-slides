@@ -1,50 +1,64 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+# Reveal.js for Blueinno Lesson Slides
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+This project uses [reveal.js](https://revealjs.com/) and its [markdown plugin](https://revealjs.com/markdown/) to create lesson slides.
 
-The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
+The purpose of this project is to:
 
----
+1. Easier translation from rundown to slides.
+2. Easier to keep track of changes with git.
+3. Easier to create various versions of slides.
+4. Easier and better visualization of code changes for students.
+5. Adds functionalities that are not available in Google Slides. (e.g. auto syntax highlighting, auto code changes animation, iframe embedding, etc.)
 
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
+For now:
 
----
+- This project only contains an example of 402D L01 slides.
+- This project is not meant to be hosted online for security reasons.
+- UI options of selecting from multiple lesson markdown files are not planned yet.
 
-### Sponsors
-Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
-<div align="center">
-  <table>
-    <td align="center">
-      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
-        <div>
-          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
-        </div>
-        <b>Your app, enterprise-ready.</b>
-        <div>
-          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
-        </div>
-      </a>
-    </td>
-  </table>
-</div>
+## Usage
 
----
+### 1. Install
 
-### Getting started
-- 🚀 [Install reveal.js](https://revealjs.com/installation)
-- 👀 [View the demo presentation](https://revealjs.com/demo)
-- 📖 [Read the documentation](https://revealjs.com/markup/)
-- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
-- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
+1. Clone this repository
 
---- 
-<div align="center">
-  MIT licensed | Copyright © 2011-2023 Hakim El Hattab, https://hakim.se
-</div>
+    ```bash
+    git clone https://github.com/felix-blueinno/reveal.js-lesson-slides.git
+    ```
+
+2. Install dependencies
+
+      ```bash
+      npm install
+      ```
+
+3. Run the server
+
+      ```bash
+      npm start
+      ```
+
+4. Open <http://localhost:8000> to view the slides.
+
+### 2. Edit
+
+1. In `index.html`, find the following line:
+
+    ```html
+    <div class="reveal">
+      <div class="slides">
+        <section 
+          data-markdown="./markdowns/402D_L01_Slides.md" 
+          data-separator="---" 
+          data-separator-vertical="____"
+          data-separator-notes="^Note:" 
+          data-charset="utf-8">
+        </section>
+
+      </div>
+    </div>
+    ```
+
+2. Base on lines above, you can see that the markdown file is `./markdowns/402D_L01_Slides.md`. You can change it to any markdown file you want.
+
+3. Use triple "-" (dash) to separate slides, and use triple "_" (underscore) to separate vertical slides.
