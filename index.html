@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <title>402D L1</title>
+
+  <link rel="stylesheet" href="dist/reset.css" />
+  <link rel="stylesheet" href="dist/reveal.css" />
+  <link rel="stylesheet" href="dist/theme/black-contrast.css" />
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="plugin/highlight/atom-one-dark.css" />
+
+  <style>
+    .reveal .slides section {
+      text-align: left;
+    }
+
+    .reveal .slides section pre {
+      text-align: left;
+      white-space: pre-wrap;
+      margin: 0%;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Placeholder where the external content will be inserted -->
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="./markdowns/402D_L01_Slides.md" data-separator="---" data-separator-vertical="____"
+        data-separator-notes="^Note:" data-charset="utf-8">
+      </section>
+
+    </div>
+  </div>
+
+  <script src="dist/reveal.js"></script>
+  <script src="plugin/notes/notes.js"></script>
+  <script src="plugin/markdown/markdown.js"></script>
+  <script src="plugin/highlight/highlight.js"></script>
+
+  <script>
+    window.onload = function () {
+      var preElements = document.getElementsByTagName("pre");
+      for (var i = 0; i < preElements.length; i++) {
+        preElements[i].classList.add("javascript");
+      }
+    };
+  </script>
+
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+    });
+  </script>
+</body>
+
+</html>
