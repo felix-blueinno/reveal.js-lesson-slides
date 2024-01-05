@@ -705,4 +705,48 @@ function keyPressed() {
 <!-- .slide: data-auto-animate -->
 <!-- .slide: data-background-iframe="https://felix-blueinno.github.io/402D_L01_GitHub_Page/" -->
 
-> Done!
+Time for some math
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+Names of the sides of a right triangle:
+![trigo](https://gcse-math.co.uk/rhcp/wp-content/uploads/trig/sin-cos-tan.jpg)
+
+<u>**Opp**</u>: the side opposite to the angle of interest.\
+<u>**Adj**</u>: the side adjacent to the angle of interest.\
+<u>**Hyp**</u>: the longest side of the triangle.
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+Names of the sides of a right triangle:
+![trigo](https://gcse-math.co.uk/rhcp/wp-content/uploads/trig/sin-cos-tan.jpg)
+
+<u>**Opp**</u>: the side opposite to the angle of interest.\
+<u>**Adj**</u>: the side adjacent to the angle of interest.\
+<u>**Hyp**</u>: the longest side of the triangle.
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+<!-- .slide: data-auto-animate -->
+<!-- .slide: data-background-iframe="https://www.tldraw.com/" -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+[Kahoot](https://play.kahoot.it/v2/?quizId=6b05ed89-c202-4089-af69-9850d77ad9cc) Time!
+
+<!-- .slide: data-auto-animate -->
+<!-- .slide: data-background-iframe="https://c7bpc.csb.app/" -->
+
+---
