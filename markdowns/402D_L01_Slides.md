@@ -737,6 +737,27 @@ Names of the sides of a right triangle:
 
 <!-- .slide: data-auto-animate -->
 
+Identify the sides of the triangle:
+![trigo](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Right_Angle_Triangle.svg/2560px-Right_Angle_Triangle.svg.png)
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+Sin, Cos, Tan
+
+<img src="https://www.mathsisfun.com/algebra/images/sin-cos-tan.svg" width="100%">
+
+Use [calculator](https://www.google.com/search?q=sin+cos+tan+calculator&rlz=1C5CHFA_enHK1087HK1087&oq=sin+cos+tan+calculator&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhDGIAEGIoFMgwIARAjGCcYgAQYigUyDAgCEAAYQxiABBiKBTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDM4MDJqMGo0qAIAsAIA&sourceid=chrome&ie=UTF-8)! (remember to change to ***deg***)
+
+<!-- .slide: data-auto-animate -->
+
+---
+
+<!-- .slide: data-auto-animate -->
+
 <!-- .slide: data-auto-animate -->
 <!-- .slide: data-background-iframe="https://www.tldraw.com/" -->
 
